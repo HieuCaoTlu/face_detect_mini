@@ -9,7 +9,7 @@
 - Đầu vào là địa chỉ của 1 ảnh, trả về nhãn dự đoán
 - VD: `predict('image.jpg')`
 
-# Hàm Train
+# Hàm Train (chỉ dùng để thêm 1 nhãn mới duy nhất vào mô hình)
 
 - Đầu vào nhận là danh sách địa chỉ ảnh và tên nhãn, trả về số lớp có thể dự đoán hiện tại
 - VD: `train(['image.jpg','image2.jpg'],'Hiếu')`
